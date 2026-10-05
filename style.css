@@ -1,0 +1,45 @@
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Arial,Helvetica,sans-serif;background:#fff;color:#56636b}
+.navbar{position:relative;width:100%;max-width:1100px;min-height:72px;margin:auto;padding:0 32px;display:flex;align-items:center;justify-content:space-between;gap:25px}
+.logo{color:#111;text-decoration:none;font-size:17px;font-weight:700}
+.desktop-nav{display:flex;align-items:center;justify-content:center;gap:28px;flex:1}
+.desktop-nav a{color:#6b7277;text-decoration:none;font-size:12px}
+.desktop-nav a:hover{color:#12aeea}
+.nav-right{display:flex;align-items:center;gap:10px}
+.username{border:0;border-radius:5px;padding:10px 14px;background:#e8f8fd;color:#20a9df;font-size:11px;cursor:pointer}
+.menu-toggle{display:none;border:0;background:transparent;color:#56636b;font-size:22px;line-height:1;cursor:pointer;padding:5px}
+.menu-list{position:absolute;top:58px;right:18px;width:150px;min-height:300px;padding:75px 20px 20px;background:#000;display:flex;flex-direction:column;justify-content:center;gap:18px;visibility:hidden;opacity:0;z-index:100}
+.menu-list a{color:#fff;text-decoration:none;text-align:center;font-size:14px}
+.menu-list a:hover{color:#13ace7}
+.menu-toggle:focus + .menu-list{visibility:visible;opacity:1}
+.hero{width:100%;max-width:1000px;min-height:520px;margin:auto;padding:70px;display:flex;align-items:center;justify-content:space-between;gap:60px}
+.hero-content{width:50%}
+.hero-content h1{color:#56636b;font-size:38px;line-height:1.12;font-weight:700;margin-bottom:14px}
+.hero-content h1 span{color:#14aee8}
+.hero-content p{max-width:430px;color:#9aa1a6;font-size:14px;line-height:1.5;margin-bottom:24px}
+.cta-button{display:inline-block;padding:13px 20px;border-radius:7px;background:#13ace7;color:#fff;text-decoration:none;font-size:12px;font-weight:600}
+.cta-button:hover{background:#079bd4}
+.hero-image{width:45%;display:flex;align-items:center;justify-content:center}
+.hero-image img{display:block;width:100%;max-width:390px;height:auto}
+
+@media(max-width:900px){
+.navbar{min-height:64px;padding:0 20px}
+.desktop-nav{display:none}
+.menu-toggle{display:block}
+.logo{font-size:17px}.username{font-size:10px;padding:8px 11px}
+.hero{min-height:auto;padding:38px 35px 50px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:28px}
+.hero-content{width:100%;max-width:520px}.hero-content h1{font-size:30px}
+.hero-content p{max-width:470px;font-size:12px}
+.hero-image{width:70%;max-width:430px}.hero-image img{max-width:330px}
+}
+@media(max-width:600px){
+.navbar{min-height:58px;padding:0 18px}.nav-right{gap:6px}
+.username{padding:8px 10px;font-size:9px}.menu-toggle{font-size:21px}
+.menu-list{top:58px;right:18px;width:150px;min-height:460px;padding:80px 15px 30px;gap:20px}
+.menu-list a{font-size:14px}
+.hero{padding:28px 22px 45px;gap:24px;align-items:stretch}
+.hero-content{width:100%}.hero-content h1{font-size:25px;line-height:1.1;margin-bottom:10px}
+.hero-content p{max-width:100%;font-size:11px;line-height:1.45;margin-bottom:18px}
+.cta-button{padding:12px 17px;font-size:11px}
+.hero-image{width:100%;justify-content:center}.hero-image img{width:82%;max-width:300px}
+}

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+<defs><linearGradient id="b"><stop stop-color="#25aee9"/><stop offset="1" stop-color="#138bc5"/></linearGradient><linearGradient id="g"><stop stop-color="#73d7f5"/><stop offset="1" stop-color="#0d70c3"/></linearGradient></defs>
+<ellipse cx="260" cy="445" rx="150" ry="22" fill="#dce3e6"/><rect x="105" y="65" width="285" height="345" rx="25" fill="url(#b)"/>
+<rect x="135" y="92" width="225" height="42" rx="9" fill="#f2f4f5"/><rect x="152" y="106" width="48" height="13" rx="6" fill="#f1c522"/><circle cx="326" cy="113" r="10" fill="#f1c522"/>
+<circle cx="250" cy="270" r="102" fill="#f7f7f7"/><circle cx="250" cy="270" r="84" fill="#b9e8f4"/><circle cx="250" cy="270" r="67" fill="url(#g)"/><ellipse cx="230" cy="244" rx="33" ry="21" fill="#8be4ff"/>
+<rect x="70" y="385" width="105" height="65" rx="12" fill="#f2b61c"/><rect x="82" y="368" width="80" height="35" rx="8" fill="#16c96b"/>
+<rect x="145" y="45" width="115" height="18" rx="8" fill="#f2b61c"/><rect x="175" y="27" width="95" height="20" rx="8" fill="#e7f0f2"/>
+</svg>
